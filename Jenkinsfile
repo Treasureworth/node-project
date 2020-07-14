@@ -10,7 +10,7 @@ node {
     stage('Build stage') {
         /* This build the actual image similar to docker build on terminal*/
 
-        app = docker.build("oniodunayo/node-project")
+        app = docker.build("oniodunayo/node-web-app")
     }
 
     stage('Test image') {
